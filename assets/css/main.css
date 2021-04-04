@@ -3982,3 +3982,26 @@ footer {
   padding: 32px 64px;
   text-align: center;
 }
+
+.iframeContainer {
+    background-color: #665a7e;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 32px 16px;
+}
+
+.iframe {
+    background-color: white;
+    /* border: 1px solid #000;
+     */
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 8px;
+    padding: 16px;
+    max-width: 772px;
+    width: 100%;
+    box-sizing: border-box;
+    max-height: 820px;
+    height: 100vh;
+}
